@@ -1,0 +1,1 @@
+# html template for manuals
