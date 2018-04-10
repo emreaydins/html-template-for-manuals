@@ -1,0 +1,263 @@
+/*
+* +----------------------------------------------------------------
+* | 	CSS Mozaik: Grid Framework
+* | 	Version 1.0.0
+* | 	Author: Emre Aydın
+* | 	URL: www.e-aydin.com
+* | 	Released under MIT license. Copyright 2017 GitHub, Inc.
+* +----------------------------------------------------------------
+* |- Table of Content --------------------------------------------
+* |- 1. COLUMNS
+*   |--- 1.1. Column Sizes
+*   |--- 1.2. Column Offset
+*   |--- 1.3. Column Small Display - Laptop - 1000+
+*   |--- 1.4. Column Tablet - 750+
+*   |--- 1.5. Column Large Display Phone - 550+
+*   |--- 1.6. Column Phone - 480+
+* |- 2. SUPPORT CODE
+* |- 3. RESPONSIVE @MEDIA
+* +-----------------------------------------------------
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section, summary, time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+body{
+  line-height: 1.6;
+  font-family: 'Barlow', Georgia, 'Times New Roman';
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+a{
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+input, select {
+  vertical-align:middle;
+}
+fieldset {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 25px 25px 0 25px;
+  margin-bottom: 20px;
+}
+label{
+  display: block;
+}
+li{
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* 1. COLUMNS */
+[class*='sutun-']{
+  position: relative;
+  float: left !important;
+}
+[class*='sutun-']:after{
+  clear: both;
+}
+[class*='sutun-']:last-of-type {
+  float: right;
+}
+.sira{ position: relative; }
+.sira:before,
+.sira:after {
+  display: table;
+  content: " ";
+}
+.sira:after {
+  clear: both;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 1.1. Column Sizes */
+.sutun-1	{ width: 8.333333333333333%; }
+.sutun-2	{ width: 16.66666666666667%; }
+.sutun-25 { width: 20%; }
+.sutun-3	{ width: 25%; }
+.sutun-4	{ width: 33.33333333333334%; }
+.sutun-5	{ width: 41.66666666666667%; }
+.sutun-6	{ width: 50%; }
+.sutun-7	{ width: 58.33333333333334%; }
+.sutun-8	{ width: 66.66666666666667%; }
+.sutun-9	{ width: 75%; }
+.sutun-10	{ width: 83.33333333333333%; }
+.sutun-11	{ width: 91.66666666666667%; }
+.sutun-12	{ width: 100%; }
+.moz-gizle{ display: none; visibility: hidden; }
+/* 1.2. Column Offset */
+.esit-1		{ margin-left: 8.333333333333333%; }
+.esit-2		{ margin-left: 16.66666666666667%; }
+.esit-25 { width: 20%; }
+.esit-3		{ margin-left: 25%; }
+.esit-4		{ margin-left: 33.33333333333334%; }
+.esit-5		{ margin-left: 41.66666666666667%; }
+.esit-6		{ margin-left: 50%; }
+.esit-7		{ margin-left: 58.33333333333334%; }
+.esit-8		{ margin-left: 66.66666666666667%; }
+.esit-9		{ margin-left: 75%; }
+.esit-10	{ margin-left: 83.33333333333333%; }
+.esit-11	{ margin-left: 91.66666666666667%; }
+.esit-12	{ margin-left: 100%; }
+/* 1.3. Column Small Display - Laptop - 1000+ */
+@media only screen and (max-width: 1000px) {
+	.sutun-1-lap	{ width: 8.333333333333333%; }
+	.sutun-2-lap	{ width: 16.66666666666667%; }
+	.sutun-25-lap { width: 20%; }
+	.sutun-3-lap	{ width: 25%; }
+	.sutun-4-lap	{ width: 33.33333333333334%; }
+	.sutun-5-lap	{ width: 41.66666666666667%; }
+	.sutun-6-lap	{ width: 50%; }
+	.sutun-7-lap	{ width: 58.33333333333334%; }
+	.sutun-8-lap	{ width: 66.66666666666667%; }
+	.sutun-9-lap	{ width: 75%; }
+	.sutun-10-lap	{ width: 83.33333333333333%; }
+	.sutun-11-lap	{ width: 91.66666666666667%; }
+	.sutun-12-lap	{ width: 100%; }
+	.moz-gizle-lap{ display: none; visibility: hidden; }
+}
+/* 1.4. Column Tablet - 750+ */
+@media only screen and (max-width: 750px) {
+	.sutun-1-tab	{ width: 8.333333333333333%; }
+	.sutun-2-tab	{ width: 16.66666666666667%; }
+	.sutun-25-tab { width: 20%; }
+	.sutun-3-tab	{ width: 25%; }
+	.sutun-4-tab	{ width: 33.33333333333334%; }
+	.sutun-5-tab	{ width: 41.66666666666667%; }
+	.sutun-6-tab	{ width: 50%; }
+	.sutun-7-tab	{ width: 58.33333333333334%; }
+	.sutun-8-tab	{ width: 66.66666666666667%; }
+	.sutun-9-tab	{ width: 75%; }
+	.sutun-10-tab	{ width: 83.33333333333333%; }
+	.sutun-11-tab	{ width: 91.66666666666667%; }
+	.sutun-12-tab	{ width: 100%; }
+	.moz-gizle-tab{ display: none; visibility: hidden; }
+}
+/* 1.5. Column Large Display Phone - 550+ */
+@media only screen and (max-width: 550px) {
+	.sutun-1-btel		{ width: 8.333333333333333%; }
+	.sutun-2-btel		{ width: 16.66666666666667%; }
+	.sutun-25-btel 	{ width: 20%; }
+	.sutun-3-btel		{ width: 25%; }
+	.sutun-4-btel		{ width: 33.33333333333334%; }
+	.sutun-5-btel		{ width: 41.66666666666667%; }
+	.sutun-6-btel		{ width: 50%; }
+	.sutun-7-btel		{ width: 58.33333333333334%; }
+	.sutun-8-btel		{ width: 66.66666666666667%; }
+	.sutun-9-btel		{ width: 75%; }
+	.sutun-10-btel	{ width: 83.33333333333333%; }
+	.sutun-11-btel	{ width: 91.66666666666667%; }
+	.sutun-12-btel	{ width: 100%; }
+	.moz-gizle-btel{ display: none; visibility: hidden; }
+}
+/* 1.6. Column Phone - 480+ */
+@media only screen and (max-width: 480px) {
+	.sutun-1-tel	{ width: 8.333333333333333%; }
+	.sutun-2-tel	{ width: 16.66666666666667%; }
+	.sutun-25-tel { width: 20%; }
+	.sutun-3-tel	{ width: 25%; }
+	.sutun-4-tel	{ width: 33.33333333333334%; }
+	.sutun-5-tel	{ width: 41.66666666666667%; }
+	.sutun-6-tel	{ width: 50%; }
+	.sutun-7-tel	{ width: 58.33333333333334%; }
+	.sutun-8-tel	{ width: 66.66666666666667%; }
+	.sutun-9-tel	{ width: 75%; }
+	.sutun-10-tel	{ width: 83.33333333333333%; }
+	.sutun-11-tel	{ width: 91.66666666666667%; }
+	.sutun-12-tel	{ width: 100%; }
+	.moz-gizle-tel{ display: none; visibility: hidden; }
+}
+/* 2. SUPPORT CODE */
+.container{
+  width:100%;
+  max-width: 1100px;
+  margin:0 auto;
+}
+.container-full{
+  width:100%;
+  max-width: 100%;
+  margin:0 auto;
+}
+.moz-merkez {
+  display: block;
+  float: none !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+.moz-sag{
+	float:right !important;
+}
+.moz-full-genis{
+	box-sizing: border:box;
+	width: 100%;
+}

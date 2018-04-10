@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Mozaik Grid -->
+  <link rel="stylesheet" href="assets/css/mozaikgrid.css" type="text/css">
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" media="all" type="text/css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Documentation</title>
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Google Font: Oswald -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500&amp;subset=latin-ext" rel="stylesheet">
+  <!-- Google Font: Barlow -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,700,700i" rel="stylesheet">
+</head>
+
+<body class="sira">
+  <div id="main" class="sutun-10 sutun-12-lap">
+    <div class="header-top sira">
+      <ul class="sutun-6">
+        <li><a href="#" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+        <li><a href=# target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+        <li><a href=# target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href=# target="_blank"><i class="fa fa-bitbucket" aria-hidden="true"></i></a></li>
+        <li><a href=# target="_blank"><i class="fa fa-gitlab" aria-hidden="true"></i></a></li>
+      </ul>
+      <div class="sutun-6">
+        <span id="white-button"><i class="fa fa-circle"></i></span>
+        <span id="dark-button"><i class="fa fa-circle"></i></span>
+        <span><a href="mailto:mail@example.com">mail@example.com</a></span>
+      </div>
+    </div><!-- .header-top -->
+    
+    <section id="header">
+      <div class="header-in section">
+        <h1>E-manual</h1>
+        <h4>Thank you very much for choosing E-manual.</h4>
+        <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+        <p>
+        <b>Created:</b> XX.XX.20XX<br />
+        <b>Email:</b> mail@example.com<br />
+        <b>Demo:</b> http://www... </p>
+      </div>
+    </section><!-- section#header -->
+    
+    <section id="1">
+      <h2>1.Heading tags</h2>
+      <h1>Heading level 1</h1>
+      <h2>Heading level 2</h2>
+      <h3>Heading level 3</h3>
+      <h4>Heading level 4</h4>
+      <h5>Heading level 5</h5>
+      <h6>Heading level 6</h6>
+    </section><!-- section -->
+    
+    <section id="2">
+      <h2>2.Paragraph</h2>
+      <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+      <p>This is a normal paragraph (p element). To add some length to it, let us mention that this page was primarily written for testing the effect of user style sheets. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.</p>
+    </section><!-- section -->
+    
+    <section id="3">
+      <h2>3.Section</h2>
+      <pre><code>&#x3C;section id=&#x22;2&#x22;&#x3E;
+  &#x3C;h2&#x3E;Section&#x3C;/h2&#x3E;
+&#x3C;/section&#x3E;</code></pre> </section>
+    <section id="4">
+      <h2>4.Alert message</h2>
+      <pre><code>&#x3C;div class=&#x22;message note&#x22;&#x3E;
+  &#x3C;div class=&#x22;message-title&#x22;&#x3E;
+    &#x3C;i class=&#x22;fa fa-info-circle&#x22;&#x3E;&#x3C;/i&#x3E; Note
+  &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;message-content&#x22;&#x3E;
+    Write your error message here 
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="message note">
+        <div class="message-title">
+          <i class="fa fa-info-circle"></i> Note
+        </div>
+        <div class="message-content">
+          Write your error message here
+        </div>
+      </div>
+      <pre><code>&#x3C;div class=&#x22;message success&#x22;&#x3E;
+  &#x3C;div class=&#x22;message-title&#x22;&#x3E;
+    &#x3C;i class=&#x22;fa fa-check-circle&#x22;&#x3E;&#x3C;/i&#x3E; Note
+  &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;message-content&#x22;&#x3E;
+    Write your error message here 
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="message success">
+        <div class="message-title">
+          <i class="fa fa-check-circle"></i> Success
+        </div>
+        <div class="message-content">
+          Write your error message here
+        </div>
+      </div>
+      <pre><code>&#x3C;div class=&#x22;message warning&#x22;&#x3E;
+  &#x3C;div class=&#x22;message-title&#x22;&#x3E;
+    &#x3C;i class=&#x22;fa fa-exclamation-circle&#x22;&#x3E;&#x3C;/i&#x3E; Note
+  &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;message-content&#x22;&#x3E;
+    Write your error message here 
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="message warning">
+        <div class="message-title">
+          <i class="fa fa-exclamation-circle"></i> Warning
+        </div>
+        <div class="message-content">
+          Write your error message here
+        </div>
+      </div>
+      <pre><code>&#x3C;div class=&#x22;message error&#x22;&#x3E;
+  &#x3C;div class=&#x22;message-title&#x22;&#x3E;
+    &#x3C;i class=&#x22;fa fa-times&#x22;&#x3E;&#x3C;/i&#x3E; Note
+  &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;message-content&#x22;&#x3E;
+    Write your error message here 
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="message error">
+        <div class="message-title">
+          <i class="fa fa-times"></i> Error
+        </div>
+        <div class="message-content">
+          Write your error message here
+        </div>
+      </div>
+      <pre><code>&#x3C;div class=&#x22;message help&#x22;&#x3E;
+  &#x3C;div class=&#x22;message-title&#x22;&#x3E;
+    &#x3C;i class=&#x22;fa fa-question-circle&#x22;&#x3E;&#x3C;/i&#x3E; Note
+  &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;message-content&#x22;&#x3E;
+    Write your error message here 
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="message help">
+        <div class="message-title">
+          <i class="fa fa-question-circle"></i> Help
+        </div>
+        <div class="message-content">
+          Write your error message here
+        </div>
+      </div>
+    </section><!-- section -->
+    
+    <section id="5">
+      <h2>5.Buttons</h2>
+      <pre><code>&#x3C;div class=&#x22;button b-large b-blue&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON LARGE BLUE&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-large b-blue"><a href="">BUTTON LARGE BLUE</a></div>
+      <br/>
+      <pre><code>&#x3C;div class=&#x22;button b-small b-blue&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON SMALL BLUE&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-small b-blue"><a href="">BUTTON SMALL BLUE</a></div>
+      <br/>
+      <pre><code>&#x3C;div class=&#x22;button b-large b-green&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON LARGE GREEN&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-large b-green"><a href="">BUTTON LARGE GREEN</a></div>
+      <br/>
+      <pre><code>&#x3C;div class=&#x22;button b-small b-green&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON LARGE BLUE&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-small b-green"><a href="">BUTTON SMALL GREEN</a></div>
+      <br/>
+      <pre><code>&#x3C;div class=&#x22;button b-large b-red&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON LARGE BLUE&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-large b-red"><a href="">BUTTON LARGE RED</a></div>
+      <br/>
+      <pre><code>&#x3C;div class=&#x22;button b-small b-red&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON LARGE BLUE&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-small b-red"><a href="">BUTTON SMALL RED</a></div>
+      <br/>
+      <pre><code>&#x3C;div class=&#x22;button b-large b-gray&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON LARGE BLUE&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-large b-gray"><a href="">BUTTON LARGE GRAY</a></div>
+      <br/>
+      <pre><code>&#x3C;div class=&#x22;button b-small b-gray&#x22;&#x3E;
+  &#x3C;a href=&#x22;&#x22;&#x3E;BUTTON LARGE BLUE&#x3C;/a&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="button b-small b-gray"><a href="">BUTTON SMALL GRAY</a></div>
+    </section><!-- section -->
+    
+    <section id="6">
+      <h2>6.Grid</h2>
+      <pre><code>&#x3C;div class=&#x22;grid&#x22;&#x3E;
+  &#x3C;div class=&#x22;grid-item&#x22;&#x3E; &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;grid-item&#x22;&#x3E; &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;grid-item&#x22;&#x3E; &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+      <div class="grid">
+        <div class="grid-item"> Hearts of the stars Drake Equation Vangelis encyclopaedia galactica, consciousness. Stirred by starlight rings of Uranus! Made in the interiors of collapsing stars science inconspicuous motes of rock and gas circumnavigated! </div>
+        <div class="grid-item"> Hearts of the stars inconspicuous motes of rock and gas worldlets as a patch of light. Bits of moving fluff Tunguska event totam rem aperiam bits of moving fluff realm of the galaxies great turbulent clouds the carbon in our apple pies. </div>
+        <div class="grid-item"> Something incredible is waiting to be known rich in heavy atoms Tunguska event, science! Another world lorem ipsum dolor sit amet. Extraordinary claims require extraordinary evidence, bits of moving fluff light years. </div>
+      </div>
+    </section><!-- section -->
+    
+    <section id="7">
+      <h2>7.Images</h2>
+      <p><img src="https://placeholdit.co//i/500x250?bg=d83b12"></p>
+      <pre><code>&#x3C;img src=&#x22;img.jpg&#x22; class=&#x22;small&#x22;&#x3E;</code></pre>
+      <p><img src="https://placeholdit.co//i/500x250?bg=d83b12" class="small"></p>
+      <pre><code>&#x3C;img src=&#x22;img.jpg&#x22; class=&#x22;large&#x22;&#x3E;</code></pre>
+      <p><img src="https://placeholdit.co//i/500x250?bg=d83b12" class="large"></p>
+      <pre><code>&#x3C;figure&#x3E; 
+  &#x3C;img src=&#x22;img.jpg&#x22;&#x3E;
+  &#x3C;figcaption&#x3E;Here is a caption for this image.&#x3C;/figcaption&#x3E;
+&#x3C;/figure&#x3E;</code></pre>
+      <figure> 
+        <img src="https://placeholdit.co//i/500x250?bg=d83b12">
+        <figcaption>Here is a caption for this image.</figcaption>
+      </figure>
+    </section><!-- section -->
+    
+    <section id="8">
+      <h2>8.Style Guide</h2>
+      <p><a href="#!">This is a text link</a>.</p>
+      <p><strong>Strong is used to indicate strong importance.</strong></p>
+      <p><em>This text has added emphasis.</em></p>
+      <p>The <b>b element</b> is stylistically different text from normal text, without any special importance.</p>
+      <p>The <i>i element</i> is text that is offset from the normal text.</p>
+      <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</p>
+      <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
+      <p><s>This text has a strikethrough</s>.</p>
+      <p>Superscript<sup>®</sup>.</p>
+      <p>Subscript for things like H<sub>2</sub>O.</p>
+      <p><small>This small text is small for for fine print, etc.</small></p>
+      <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
+      <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
+      <p><cite>This is a citation.</cite></p>
+      <p>The <dfn>dfn element</dfn> indicates a definition.</p>
+      <p>The
+        <mark>mark element</mark> indicates a highlight.</p>
+      <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
+      <p>The time element:
+        <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
+      </p>
+      <h3 id="81">8.1.Blockquotes</h3>
+      <blockquote>
+        <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.</p>
+        <p>It is typically distinguished visually using indentation and a different typeface or smaller size quotation. It may or may not include a citation, usually placed at the bottom.</p> <cite>Said no one, ever.</cite> </blockquote>
+      <hr/>
+      <h3 id="82">8.2.Ordered list</h3>
+      <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+      </ol>
+      <hr/>
+      <h3 id="83">8.3.Unordered list</h3>
+      <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+      </ul>
+      <hr/>
+      <h3 id="84">8.4.Mixed list</h3>
+      <ol>
+        <li>List Item 1
+          <ul>
+            <li>List Item 1</li>
+            <li>List Item 2
+              <ol>
+                <li>List Item 1</li>
+                <li>List Item 2
+                  <ul>
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                  </ul>
+                </li>
+                <li>List Item 3</li>
+              </ol>
+            </li>
+            <li>List Item 3</li>
+          </ul>
+        </li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+      </ol>
+      <hr/>
+      <h3 id="85">8.5.Definition list</h3>
+      <dl> <dt>Definition List Title</dt>
+        <dd>Definition list division.</dd> <dt>Startup</dt>
+        <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd> <dt>#dowork</dt>
+        <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.</dd> <dt>Do It Live</dt>
+        <dd>I’ll let Bill O’Reilly will <a title="We'll Do It Live" href="https://www.youtube.com/watch?v=O_HyZ5aW76c">explain</a> this one.</dd>
+      </dl>
+      <hr/>
+      <h3 id="86">8.6.Table styles</h3>
+      <table cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <th>Table Header 1</th>
+            <th>Table Header 2</th>
+            <th>Table Header 3</th>
+          </tr>
+          <tr>
+            <td>Division 1</td>
+            <td>Division 2</td>
+            <td>Division 3</td>
+          </tr>
+          <tr class="even">
+            <td>Division 1</td>
+            <td>Division 2</td>
+            <td>Division 3</td>
+          </tr>
+          <tr>
+            <td>Division 1</td>
+            <td>Division 2</td>
+            <td>Division 3</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr/>
+      <h3 id="87">8.7.Forms</h3>
+      <fieldset>
+        <legend>Fieldset</legend>
+        <form>
+          <label for="text_field">Text Field:</label>
+          <input id="text_field" type="text">
+          <label for="text_area">Text Area:</label>
+          <textarea id="text_area"></textarea>
+          <br/>
+          <input class="button" value="Clear" type="reset">
+          <input class="button" value="Submit" type="submit"> </form>
+      </fieldset>
+      <hr/>
+      <h3 id="88">8.8.Code</h3>
+      <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
+      <p><strong>Inline code:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></p>
+      <p><strong>Sample output:</strong> <samp>This is sample output from a computer program.</samp></p>
+      <hr/>
+      <h3 id="89">8.9.Pre-formatted text</h3>
+      <pre>P R E F O R M A T T E D T E X T
+  ! " # $ % &amp; ' ( ) * + , - . /
+  0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+  @ A B C D E F G H I J K L M N O
+  P Q R S T U V W X Y Z [ \ ] ^ _
+  ` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~ </pre>
+      <hr/>
+      <h3 id="810">8.10.Horizontal rules</h3>
+      <hr/>
+    </section><!-- section -->
+      
+    <section id="9">
+      <h2>Credits</h2>
+      Made by <a href="http://www.emreaydins.com" target="_blank">Emre Aydın</a>
+    </section><!-- section -->
+    
+  </div><!-- #main -->
+  <div id="sidebar" class="sutun-2 sutun-12-lap">
+    <h4 class="sidebar-title">Table of Content</h4>
+    <div class="sidebar-content">
+      <ul>
+        <li><a href="#header">Info</a></li>
+        <li><a href="#1">Heading tags</a></li>
+        <li><a href="#2">Paragraph</a></li>
+        <li><a href="#3">Section</a></li>
+        <li><a href="#4">Alert message</a></li>
+        <li><a href="#5">Buttons</a></li>
+        <li><a href="#6">Grid</a></li>
+        <li><a href="#7">Images</a></li>
+        <li><a href="#8">Style guide</a>
+          <ul>
+            <li><a href="#81">Blockquotes</a></li>
+            <li><a href="#82">Ordered list</a></li>
+            <li><a href="#83">Unordered list</a></li>
+            <li><a href="#84">Mixed list</a></li>
+            <li><a href="#85">Definition list</a></li>
+            <li><a href="#86">Table styles</a></li>
+            <li><a href="#87">Forms</a></li>
+            <li><a href="#88">Code</a></li>
+            <li><a href="#89">Pre-formatted text</a></li>
+            <li><a href="#810">Horizontal rules</a></li>
+          </ul>
+        </li>
+        <li><a href="#2">Credit</a></li>
+      </ul>
+    </div>
+  </div><!-- #sidebar -->
+  
+  <script>
+  document.getElementById('dark-button').onclick = changeThemeGray;
+  document.getElementById('white-button').onclick = changeThemeWhite;
+  function changeThemeGray() {
+    document.querySelector('body').id = 'dark';
+  }
+  function changeThemeWhite() {
+    document.querySelector('body').id = '';
+  }
+  </script>
+</body>
+
+</html>
